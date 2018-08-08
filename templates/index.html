@@ -1,0 +1,40 @@
+<html>
+
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../static/js/index.js"></script>
+
+<body>
+
+    <br><br>
+    <div class="container">
+        <div class="row">          
+          <!-- edit form column -->
+            <div class="col-md-9 personal-info">
+                <button id="bStartGame" class="btn btn-primary">Start a new game</button>
+                <h3>Current Game actions</h3>
+                <p id="messageOnAction"></p>
+                <form class="form-horizontal" role="form" id="fThrowBall">
+                    <div class="form-group">
+                    <label class="col-lg-3 control-label">Number of pins to knock:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" id="iPins" type="text" value="0">
+                    </div>
+                    </div>
+                    <input type="button" id="bThrowBall" class="btn btn-primary" value="Throw ball">
+                </form>   
+                <h3>Game score</h3>
+                <p id="messageOnScore"></p>
+                <button class="btn btn-primary" id="bRefreshScore">Refresh score</button>
+                <div id="tScore">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

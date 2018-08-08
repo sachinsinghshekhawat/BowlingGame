@@ -1,0 +1,1 @@
+{"maxframe": 10, "is_game_finshed": 0, "current_frame": 2, "remaining_frame_balls": 2, "remaining_frame_pins": 10, "data": {"0": {"score": {"0": 0, "1": 10}, "status": "spare"}, "1": {"score": {"0": 10}, "status": "strike"}}}
